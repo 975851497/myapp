@@ -1,0 +1,76 @@
+html,
+body,
+div,
+form,
+table,
+pre,
+center,
+address,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+ul,
+ol,
+dl,
+dd,
+dt,
+dd,
+li,
+fieldset,
+option,
+legend {
+    margin: 0;
+    padding: 0
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: verdana, SimSun, Helvetica, sans-serif;
+    color: #333;
+    font-size: 12px;
+}
